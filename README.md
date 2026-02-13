@@ -3,6 +3,10 @@
 Este é um script Python simples!
 Feito para testar sua chave de API do Google Gemini. Ele verifica a validade da chave, lista todos os modelos para você, testa o acesso a cada um e mede a latência da resposta.
 
+
+https://github.com/user-attachments/assets/02213f8a-c7c1-44df-bfc7-d5cfc2fef22f
+
+
 ## Funcionalidades
 
 -   **Configuração Segura da API Key**: Prioriza o uso de variáveis de ambiente (`GOOGLE_API_KEY`) e, como alternativa, solicita a chave de forma segura durante a execução, sem salvá-la em disco.
@@ -83,4 +87,5 @@ models/gemini-1.0-pro-vision   | 12,288             | 4,096             | COTA E
     -   `REQ. INVÁLIDA`: O modelo existe, mas não aceita o teste simples de texto (comum em modelos de áudio/TTS que exigem configurações específicas).
     -   `NÃO ENCONTRADO`: O modelo pode ter sido descontinuado ou não está acessível na região.
     -   `ERRO`: Ocorreu um erro inesperado durante o teste.
+
 -   **LATÊNCIA**: O tempo em segundos que o modelo levou para responder à requisição de teste.
