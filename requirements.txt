@@ -1,0 +1,4 @@
+google-genai
+colorama
+python-dotenv
+Python 3.6
